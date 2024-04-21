@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">App Admin</string>
+    <string name="donde_el_che_admin">Donde el Che Admin</string>
+    <string name="nexus">By Nexus</string>
+
+    <string-array name="estado">
+        <item>Disponible</item>
+        <item>Agotado</item>
+    </string-array>
+    <string-array name="categorias">
+        <item>Refacciones</item>
+        <item>Almuerzo</item>
+        <item>Comida Rápida</item>
+    </string-array>
+</resources>

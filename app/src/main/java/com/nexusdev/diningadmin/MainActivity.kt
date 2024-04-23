@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.ContextCompat
 import com.nexusdev.diningadmin.databinding.ActivityMainBinding
 import com.nexusdev.diningadmin.views.AddActivity
+import com.nexusdev.diningadmin.views.ProductosActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,6 +27,10 @@ class MainActivity : AppCompatActivity() {
         binding.let {
             it.btnInsert.setOnClickListener {
                 val i = Intent(this, AddActivity::class.java)
+                startActivity(i)
+            }
+            it.btnManagement.setOnClickListener {
+                val i = Intent(this, ProductosActivity::class.java)
                 startActivity(i)
             }
         }

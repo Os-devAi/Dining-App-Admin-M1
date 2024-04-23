@@ -25,7 +25,7 @@
                 android:id="@+id/title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/donde_el_che_admin"
+                android:text="@string/donde_el_che"
                 android:textColor="#ffffff"
                 android:textSize="26sp"
                 android:textStyle="bold" />
@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="30dp"
-                android:text="@string/nexus"
+                android:text="@string/by_nexus"
                 android:textColor="#ffffff"
                 android:textSize="14sp"
                 android:textStyle="bold" />

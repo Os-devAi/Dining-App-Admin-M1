@@ -10,4 +10,5 @@
     <color name="gray_secundary">#eceff1</color>
     <color name="gray_light">#AEFFFFFF</color>
     <color name="gray_dark">#babdbe</color>
+    <color name="gray">#EDEDED</color>
 </resources>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Dining</string>
+    <string name="app_name">Dining Admin</string>
     <string name="papas_fritas">Papas Fritas</string>
     <string name="price">Q.10.00</string>
     <string name="message">Que se te antoja hoy?</string>
@@ -22,16 +22,15 @@
     <string name="t_rminos_y_condiciones">Términos y Condiciones</string>
     <string name="icono_telefono">Icono telefono</string>
     <string name="whatsapp">WhatsApp</string>
-    <string name="donde_el_che">Donde El Che</string>
     <string name="by_nexus">By Nexus</string>
 
     <string-array name="estado">
-        <item>Disponible</item>
-        <item>Agotado</item>
+        <item>Available</item>
+        <item>Not Available</item>
     </string-array>
     <string-array name="categorias">
-        <item>Refacciones</item>
         <item>Almuerzo</item>
+        <item>Refacciones</item>
         <item>Comida rapida</item>
     </string-array>
 </resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/gray"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="8dp"
@@ -21,7 +21,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="14dp"
             android:text="Nombre"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <EditText
@@ -35,7 +35,7 @@
             android:padding="8dp"
             android:paddingStart="16dp"
             android:singleLine="true"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textColorHint="@color/white"
             app:layout_constraintTop_toBottomOf="@+id/title"
             tools:ignore="LabelFor,MissingConstraints,RtlSymmetry,TextFields" />
@@ -46,7 +46,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="14dp"
             android:text="Descripcion"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
 
@@ -59,7 +59,7 @@
             android:gravity="top"
             android:inputType="text|textCapSentences|textNoSuggestions|textMultiLine"
             android:padding="8dp"
-            android:textColor="@color/white" />
+            android:textColor="@color/black" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -67,7 +67,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="14dp"
             android:text="Precio"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <EditText
@@ -81,7 +81,7 @@
             android:padding="8dp"
             android:paddingStart="16dp"
             android:singleLine="true"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textColorHint="@color/white"
             app:layout_constraintTop_toBottomOf="@+id/title"
             tools:ignore="LabelFor,MissingConstraints,RtlSymmetry,TextFields" />
@@ -92,7 +92,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="14dp"
             android:text="Estado"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <Spinner
@@ -110,7 +110,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="14dp"
             android:text="Categoria"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
         <Spinner
@@ -151,7 +151,7 @@
                 android:id="@+id/ibProduct"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:background="?attr/selectableItemBackground"
+                android:background="?attr/selectableItemBackgroundBorderless"
                 android:src="@drawable/ic_add_photo"
                 app:layout_constraintBottom_toBottomOf="@id/imgProductPrevie"
                 app:layout_constraintEnd_toEndOf="@id/imgProductPrevie"
@@ -175,7 +175,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 app:layout_constraintStart_toStartOf="@id/progress_bar"
                 app:layout_constraintTop_toBottomOf="@id/progress_bar"
                 app:layout_constraintTop_toTopOf="@id/progress_bar"

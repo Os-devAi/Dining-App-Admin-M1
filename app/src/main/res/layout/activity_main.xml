@@ -18,14 +18,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp">
 
             <TextView
                 android:id="@+id/title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/donde_el_che"
+                android:text="Rincón Chapin EBENEZER"
                 android:textColor="#ffffff"
                 android:textSize="26sp"
                 android:textStyle="bold" />
@@ -59,18 +59,19 @@
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="6dp">
 
                 <LinearLayout
+                    android:id="@+id/btnInsert"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
-                        android:id="@+id/btnInsert"
+                    <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:background="@drawable/ic_add"
@@ -94,18 +95,19 @@
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="6dp">
 
                 <LinearLayout
+                    android:id="@+id/btnManagement"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                    <ImageButton
-                        android:id="@+id/btnManagement"
+                    <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:background="@drawable/ic_products"
